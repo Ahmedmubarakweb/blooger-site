@@ -1,0 +1,135 @@
+@media (max-width:768px){
+    header .navbar{
+        padding:3vmin 0;
+    }
+    .section1 .row .col-md-7{
+        position: static;
+        height:18rem;
+        background-color: #fff;
+        margin-top:1em;
+        padding:.3em;
+      
+
+        }
+        .section1 .row .col-md-7 h3{
+            padding:.1em;
+        }
+        .section1 .row .col-md-7 p{
+            padding:0 .5em .5em;
+        }
+        .download .icon{
+            background-color: #fff;
+            border-radius:4em;
+            align-items: center;
+            padding:0;
+            margin:10px;
+            width:200px;
+            
+        }
+        .download .icon div{
+       width:50px;
+       padding:0;
+        }
+        .download .icon i{
+            font-size:30px;
+            padding:.5em;
+        }
+
+}
+@media (max-width:425px){
+    header .col-md-5{
+        padding-top:0;
+    }
+    .testimonials .carousel {
+        width: 400px;
+        
+    }
+    .section1 .row .col-md-7{
+        position: static;
+        height:25em;
+        background-color:none;
+        top:22vmin;
+        padding:1em 1em;
+        box-shadow:none;
+   
+        }
+    .download .p-d{
+        padding:20px 10px;
+    }
+    .download h1{
+        font-size:2em;
+    }
+    .feautres .content h2{
+        padding-top:.5em;
+        font-size:1.8em;
+       
+    }
+  
+    .feautres .number div{
+        margin:1em;
+        width:7em;
+        padding:.7em 1.3em 1.3em;
+        box-shadow:  1px 2px 30px  rgba(231, 95, 16, 0.7);
+    }
+    .feautres .number div h2{
+        font-size:1.5em;
+    }
+    .feautres .number div span{
+        font-size:.7em;
+    }
+    .download .icon{
+ border-radius:4em;
+        align-items: center;
+        padding:1px 1em;
+        margin:20px 20px;
+        width:150px;
+        
+    }
+    .download .icon h3{
+   font-size:1em;
+    }
+    .download .icon div{
+   width:50px;
+     padding:0;
+   
+    }
+    .download .icon i{
+        font-size:25px;
+        padding:.3em;
+    }
+    .purches h2{
+        font-size:2rem;
+    }
+    .purches .card{
+        padding:0;
+        width:15rem !important;
+        height: 30em;
+        margin:1em 0;
+    }
+    .carousle-card{
+        padding:0;
+        width:18rem !important;
+    }
+    .testimonials .card{
+        padding:0;
+        width:18rem !important;
+    }
+    
+}
+@media (max-width:320px){
+
+    .section1 .row .col-md-7{
+        height:30em;
+        }
+        .section1 .row .col-md-7 h1{
+            font-size:2em;
+        }
+        .feautres .number {
+            margin-top:-2em;
+        }
+        .download h1{
+            font-size:1.5em;
+        }
+     
+
+}

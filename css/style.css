@@ -1,0 +1,237 @@
+
+
+/* header */
+header{
+    background: linear-gradient(#dd2476 ,#ff512f);
+}
+header .navbar{
+    padding:3vmin 20vmin;
+}
+header .navbar-brand{
+    font-size:1.5em;
+}
+header .nav-item {
+    font-size: 1em;
+    padding:0 .1em;
+
+}
+
+header .nav-item .nav-link{
+    color:#fff !important;
+}
+header .nav-item a:hover{
+    color:black !important;
+}
+header .row .col-md-7{
+    padding:20vmin 5vmin 20vmin;
+}
+header .row .col-md-7 h6{
+    letter-spacing: 4px;
+    font-size:1em;
+}
+header .row .col-md-7 h1{
+    font-size:3rem;
+    padding:2vmin 0;
+    font-weight: bold;
+}
+header .row .col-md-7 p{
+    padding:2vmin 5vmin;
+}
+header .row .col-md-7 button{
+    font-weight: bold;
+    padding:.9em 4em;
+    border-radius: 10em;
+}
+header .row .col-md-5{
+    padding:10vmin 5vmin 0vmin;
+}
+header .row .col-md-5 img{
+    height:80vmin;
+}
+
+/* section1 */
+.section1{
+    padding:30vmin 0;
+}
+.section1 .row .col-md-5 img{
+width:100%;
+}
+.section1 .row .col-md-7{
+position: relative;
+height:450px;
+background-color: #fff;
+top:20vmin;
+left:-10vmin;
+}
+.section1 .row .col-md-7 h2{
+    padding:1em 1em;
+}
+.section1 .row .col-md-7 p{
+    padding:.5em 2em;
+}
+/* features */
+
+
+.feautres .cover{
+    background-image:url("../images/photography-of-woman-surrounded-by-sunflowers-1263986\ \(1\).jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+  height:70vmin;
+  width: 100%;
+  position: relative;
+}
+.feautres .content{
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0,0,0,.8);
+   margin-top:2em;
+}
+.feautres .content h2{
+    padding-top:.5em;
+    font-size:2.5em;
+    color: #fff;
+}
+
+.feautres .number{
+    margin-top:-4em;
+    position: relative;
+}
+.feautres .number div{
+    background-color:#fff;
+    margin:1em;
+    border-radius:1em;
+    width:15em;
+    padding:1em 2em 2em;
+    box-shadow:  1px 2px 50px 0px rgba(231, 95, 16, 0.7);
+}
+    .feautres .number div h2{
+        color:#ff512f ;
+        font-size:4em;
+    }
+    .feautres .number div span{
+        color:#000;
+        font-weight: bold;
+    }
+
+    /* purches */
+    .purches{
+        padding:10rem 0;
+    }
+    .purches h3{
+        padding:1em 0 .3em;
+    }
+ 
+    .purches .card{
+        padding:0;
+        width:22rem;
+    }
+    .purches .card .card-header{
+        background:rgba(16, 187, 187, 0.199) ;
+    border: none;
+    }
+    .purches .card .card-footer{
+        background:rgba(14, 221, 221, 0.199) ;
+        border-top-right-radius: 170px;
+        border-top-left-radius: 170px;
+    }
+    .purches .card .card-text{
+        padding:5em 3em;
+    }
+    .purches .card a{
+        font-weight: bold;
+        border-radius:20px;
+        margin-bottom:2em;
+    }
+   .purches .card .card-body h1{
+       padding:1em 0 1em;
+      
+   }
+   /* download */
+  .download{
+      background:linear-gradient(#dd2476,#ff512f);
+      padding:10vmin 0;
+  }
+ .download .p-d{
+     padding:20px 100px;
+ }
+  .download .icon{
+      background-color: #fff;
+      border-radius:4em;
+      align-items: center;
+      padding:3px 2rem;
+      margin:20px 20px;
+      
+  }
+  .download .icon:hover{
+      cursor: pointer;
+  }
+  .download .icon .info{
+      margin-top:10px;
+      float: left;
+  }
+  .download .icon i{
+      margin-top:10px;
+      float:left;
+      padding:10px;
+  }
+
+  /* testimonials */
+  .testimonials{
+      padding:5em 0;
+  }
+  .testimonials .card{
+    padding:10px 20px;
+  }
+  .testimonials .carousel{
+      width:400px ;
+  }
+  .testimonials .card .card-header{
+      background: none;
+      border:none;
+      padding:20px 0;
+  }
+  .testimonials .card .card-header .card-img-top { 
+   width:60%;
+   height:50%;
+   border-radius:150px;
+
+  }
+  .testimonials .carousel .card .card-img-top{
+    width:50%;
+
+  }
+
+  /* footer */
+  footer{
+      background-color: rgba(0,0,0,.8);
+      padding:8vmin 0;
+  }
+  footer h3{
+      padding:20px 0 10px;
+  }
+  footer span{
+      color: #dd2476;
+      display: inline;
+  }
+  footer .input-group input {
+      border: none;
+  }
+ 
+  footer .input-group-text{
+      background-color: #dd2476;
+      border: none;
+      color:#fff;
+  }
+  footer .input-group-text i{
+    color:#fff; 
+  }
+  footer .col-md-2 i{
+color: #dd2476;
+font-size:100%;
+margin:2% 2%;
+
+  }
+  footer .col-md-2 i:hover{
+    cursor: pointer;
+  }
