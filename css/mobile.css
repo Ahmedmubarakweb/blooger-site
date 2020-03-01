@@ -130,6 +130,9 @@
         .download h1{
             font-size:1.5em;
         }
+    .testimonials .carousel .card{
+            width:15rem !important;
+        }
      
 
 }
