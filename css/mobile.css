@@ -108,12 +108,9 @@
     }
     .carousle-card{
         padding:0;
-        width:18rem !important;
+        width:15rem !important;
     }
-    .testimonials .card{
-        padding:0;
-        width:18rem !important;
-    }
+    
     
 }
 @media (max-width:320px){
@@ -130,7 +127,7 @@
         .download h1{
             font-size:1.5em;
         }
-    .testimonials .carousel .card{
+        .testimonials .carousel .card{
             width:15rem !important;
         }
      
